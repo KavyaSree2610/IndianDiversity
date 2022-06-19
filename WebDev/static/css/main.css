@@ -47,11 +47,14 @@ body {
     float: right;
 }
 
+.topnav-left {
+    float: right;
+}
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 @media screen and (max-width: 600px) {
 
     .topnav a,
-    .topnav-right {
+    .topnav-right,.topnav-left {
         float: none;
         display: block;
     }
